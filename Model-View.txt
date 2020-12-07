@@ -1,0 +1,3 @@
+A view uses this interface to read from and write to your data.
+Any instance of a class that implements QAbstractItemModel is said to be a model.
+Once the view receives a pointer to a model, it will read and display its content and be its editor
